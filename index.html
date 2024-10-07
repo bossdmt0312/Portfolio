@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-con">
+                    <div class="logo">
+                        <a href="index.html">Portfolio</a>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="menu" id="menu">
+                        <li><a href="#Profile">Profile</a></li>
+                        <li><a href="#Hobby">Hobby</a></li>
+                        <li><a href="#Skill">Skill</a></li>
+                        <li><a href="#Project">MyProject</a></li>
+                        <li><a href="#Assignment">Assignment</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#Reference">Reference</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Profile" class="profile-section">
+        <div class="profile-content">
+            <img src="/pic_profile/profile2.JPG" alt="" class="profile-image" />
+            <div class="profile-text">
+                <h1>Profile</h1>
+                <p>
+                    Firstname - Lastname : Rungwit Lamkham <br>
+                    Nickname : Boss <br>
+                    Born on : 03/12/2003 <br>
+                    Age : 20 <br>
+                    King Mongkut's University of Technology Thonburi <br>
+                    Media Technology : Media Digital <br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Hobby" class="hobby-section">
+        <div class="hobby-header">
+            <h2 class="hobby-heading">Hobby</h2>
+            <p class="hobby-description">
+                My hobbies include studying video editing <br> both VFX in Adobe After Effects and cinematic editing <br> I am currently interested in 3D model sculpting using Blender <br> Feel free to check out my previous works <br>
+            </p>
+        </div>
+
+        <div class="hobby-slider">
+            <img src="/blender_hobby/blen1.jpg" alt="Work Image 1" class="slider-image active" />
+            <img src="/blender_hobby/blen2.jpg" alt="Work Image 2" class="slider-image" />
+            <img src="/blender_hobby/blen3.jpg" alt="Work Image 3" class="slider-image" />
+
+            <div class="slider-controls">
+                <button id="prev" class="slider-btn">❮</button>
+                <button id="next" class="slider-btn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skill" class="skill-section">
+        <h2 class="skill-heading">Skills</h2>
+        <div class="skill-icons">
+            <div class="skill-item">
+                <img src="/icon_skill/an.png" alt="Adobe Animate Icon" />
+                <p>Adobe Animate</p>
+            </div>
+            <div class="skill-item">
+                <img src="/icon_skill/pr.png" alt="Adobe Premiere Pro Icon" />
+                <p>Adobe Premiere Pro</p>
+            </div>
+            <div class="skill-item">
+                <img src="/icon_skill/ae.png" alt="Adobe After Effects Icon" />
+                <p>Adobe After Effects</p>
+            </div>
+            <div class="skill-item">
+                <img src="/icon_skill/ps.png" alt="Adobe Photoshop Icon" />
+                <p>Adobe Photoshop</p>
+            </div>
+            <div class="skill-item">
+                <img src="/icon_skill/bl.png" alt="Blender Icon" />
+                <p>Blender</p>
+            </div>
+            <div class="skill-item">
+                <img src="/icon_skill/dr.png" alt="DaVinci Resolve Icon" />
+                <p>DaVinci Resolve</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Project" class="index-project-section">
+        <h2>My Project</h2>
+        <p>Click the button below to visit the project page where I proudly present my work</p>
+    
+        <div class="project-btn-container">
+            <a href="Project.html" class="project-btn">View My Projects</a>
+        </div>
+    </section>
+    
+    <section id="Assignment" class="assignment-section">
+        <h2 class="assignment-heading">Assignment</h2>
+        <div class="assignment-buttons">
+            <a href="assign\assignment-3\recipe.html" class="assignment-btn">Cinnamon Roll</a>
+            <a href="assign\assignment4\recipe.html" class="assignment-btn">Pizza dip</a>
+            <a href="assign\assignment5\index.html" class="assignment-btn">Blog</a>
+            <a href="assign\assignment6\register.html" class="assignment-btn">Register and login</a>
+            <a href="assign\assignment7\index.html" class="assignment-btn">Square game</a>
+        </div>
+    </section>
+
+    <section id="Contact" class="contact-section">
+        <h2 class="contact-heading">Contact</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100081109056996" target="_blank">
+                <img src="/contact/face.png" alt="" />
+            </a>
+            <img src="/contact/gmail.png" alt="" />
+            <a href="https://www.instagram.com/bbrwl_/" target="_blank">
+                <img src="/contact/ig.png" alt="" />
+            </a>
+            <a href="https://www.youtube.com/@brwlboss" target="_blank">
+                <img src="/contact/yt.png" alt="" />
+            </a>
+        </div>
+    </section>
+
+    <section id="Reference" class="reference-section">
+        <h2>Reference</h2>
+        <p>
+            <a href="https://www.w3schools.com/" target="_blank" class="reference-link">W3Schools</a>
+        </p>
+        <p>
+            <a href="https://www.youtube.com/@codehal/videos" target="_blank" class="reference-link">CodeHal YouTube Channel</a>
+        </p>
+        <p>
+            <a href="https://www.freepik.com/" target="_blank" class="reference-link">Freepik</a>
+        </p>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

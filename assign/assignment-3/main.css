@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Kanit;
+    src: url("D:\work\MDT312\week3\assignment-3\font\Kanit-Medium.ttf");
+}
+
+h1 {
+    background-color: rgb(135, 80, 12);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 2px 2px 2px hwb(26 2% 80%);
+    color: rgb(255, 255, 255);
+}
+
+.Ingred {
+    font-family: Kanit;
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    line-height: 3rem;
+}
+
+body {
+    background-color: #ffcc8e;
+    font-family: Kanit;
+}
+
+.footer {
+    position: bottom;
+    font-family: Kanit;
+    width: auto;
+    background-color: #ffba4b;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#step1 {
+    margin-left: 3rem;
+    width: 600px;
+    border-radius: 1rem;
+    border: 10px dotted #ffba4b;
+}
+
+h2 {
+    border-radius: 5rem;
+    background-color: rgb(187, 121, 39);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px hwb(26 2% 80%);
+    margin-top: auto;
+}
+
+#next {
+    margin-top: 2rem;
+    position: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.step {
+    line-height: 3rem;
+    background-color: bisque;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    display: flex;
+}
+
+#step2 {
+    max-width: 300px;
+    border: 10px dotted #ffba4b;
+    border-radius: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 4rem;
+    margin: 1rem;
+}
+
+.image-container img {
+    max-width: 400px;
+    border-radius: 1rem;
+    border: 10px dotted #a96928;
+}
+
+.imgae {
+    display: flex;
+    justify-content: center; 
+    gap: 4rem;
+    margin: 1rem;
+}
+
+.imgae img {
+    max-width: 400px;
+    border-radius: 1rem;
+    border: 10px dotted #a96928;
+}

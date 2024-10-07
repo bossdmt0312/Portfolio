@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif; 
+}
+
+fieldset {
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+legend {
+    font-weight: bold; 
+    color: #333; 
+}
+
+#container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid #333; 
+    border-radius: 10px; 
+    background-color: #e0e0e0; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #000; 
+    border-radius: 5px; 
+}
+
+.maroon {
+    background-color: maroon;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.magenta {
+    background-color: magenta;
+}
